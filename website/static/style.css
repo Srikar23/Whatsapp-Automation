@@ -1,0 +1,79 @@
+.navbar{
+    background-color: #1EBEA5 !important;
+    height: 90px;
+}
+body{
+    background-color: #090E11;
+}
+button{
+    color: black;
+}
+.border-0{
+    color: white;
+}
+.instruction-top{
+    max-width: 300rem;
+    width: 680px;
+    height: 600px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 4rem;
+    padding-top: 8px;
+    padding-right: 62px;
+    padding-bottom: 250px;
+    padding-left: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.qr{
+    height: 15rem;
+    position: absolute;
+    left: 58%;
+    top: 5rem;
+
+}
+.main-text{
+    position: absolute;
+    top: 2rem;
+}
+.main-text h4{
+    color: #B4B4B4;
+    font-weight: 300;
+}
+
+.instruction-list{
+    position: absolute;
+    top: 350px;
+    padding-left: 5px;
+    color: #B4B4B4;
+    font-weight: 300;
+}
+.instruction-list ul{
+    color: black;
+}
+
+.button-grp{
+    position: absolute;
+    left: 20rem;
+    top: 450px;
+}
+
+.b1 ,.b2{
+    background-color: #1EBEA5;
+    border-color:  #1EBEA5;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.b1:hover{
+    background-color: #00f8d3;
+}
+.b2:hover{
+    background-color: #00f8d3;
+}

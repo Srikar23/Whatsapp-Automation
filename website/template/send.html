@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>www.WhatsappAutomation<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'sendstyle.css' %}">
+</head>
+<header>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+        <h4><img onclick="windole.location.href='index.html'" src="https://www.freeiconspng.com/uploads/download-and-use-logo-whatsapp-png-clipart-3.png" width="40" height="40" class="d-inline-block align-top" alt="img" loading="lazy">
+        WhatsApp</h4>
+        </a>
+        <h2><a href="http://127.0.0.1:8000/">Home</a></h2>
+    </nav>
+
+</header>
+<body>
+    <div class="sendbox">
+        <div class="form">
+            <form action="mssg/" method="get">
+                <lable>Contact No: </lable><br>
+                <input class="number" type="number" placeholder="+91-" name="contact name" required><br>
+                <label class="msg">Message :  </label><br>
+                <input type="text" placeholder="type message" name="Message" required><br>
+                <label>Time (IN secs):</label><br>
+                <input type="text" name="Time" required><br><br>
+                <button type="submit" class="btn btn-outline-primary" value="Click">Send</button> <br><br>
+            </form>
+            <form action="sendFile/" method="get">
+                <button type="submit" class="btn btn-outline-primary" value="Click">Send File</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

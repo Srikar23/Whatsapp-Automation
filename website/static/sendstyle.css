@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #1EBEA5 !important;
+    height: 200px;
+    position: relative;
+}
+body{
+    background-color: #090E11;
+}
+.sendbox{
+    position: absolute;
+    left: 35%;
+    top: 100px;
+}
+.form{
+    height: 500px;
+    border: 1px solid black;
+    width: 500px;
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn-outline-primary:hover{
+    background-color: #1EBEA5 !important;
+    border-color: #1EBEA5;
+}
+.btn-outline-primary{
+    border-radius: 5rem;
+    background-color: #1EBEA5 !important;
+    border-color: #1EBEA5;
+    width: 12rem;
+}
